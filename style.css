@@ -1,0 +1,52 @@
+.container {
+  height: 100vh;
+}
+#name {
+  font-family: "Satisfy", cursive;
+  font-size: 140px;
+}
+#altyazi {
+  font-size: 25px;
+}
+.back {
+  background: linear-gradient(300deg, #eef5ff, #b4d4ff, #86b6f6);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.profile-img {
+  border-radius: 50%;
+  height: 150px;
+}
+.text {
+  color: #176b87;
+}
+.skills-img {
+  border-radius: 50%;
+  height: 100px;
+}
+#baslik {
+  font-size: 30px;
+}
+#alt-baslik {
+  font-size: 25px;
+}
+.cloud1 {
+  height: 180px;
+  position: absolute;
+  left: 200px;
+  bottom: 150px;
+}
+.cloud2 {
+  height: 150px;
+  position: absolute;
+  right: 200px;
+  top: 60px;
+}
+.secret {
+  display: none; /* Önce her yerde gizle */
+}
+@media only screen and (min-width: 1200px) {
+  .secret {
+    display: inline-block;
+  }
+}
